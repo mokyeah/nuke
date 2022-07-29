@@ -34,7 +34,7 @@ function App() {
                     
                     <div className='flex '></div>    
                 </div>
-                
+                <div className='ml-2'><strong>TYPES</strong></div>
                 <div className='p-2 rounded-xl hover:animate-pulse transition-all bottom hover:border-2 border-red-600 bg-red-700  '>
                 The Atomic Bomb
                 </div>

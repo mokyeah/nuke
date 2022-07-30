@@ -30,19 +30,26 @@ function App() {
                       ))}
                     <div className='-mt-1 text-s'> (1)</div>
 
-
+                        
 
                     <div className='flex '></div>
                   </div>
-                  <div className='flex flex-col mt-5  gap-2'>
-                    <div className='p-2  hover:animate-pulse transition-all bottom hover:scale-110 border-red-600 bg-gray-400 text-red-600 '>
+                  <div class='relative'>
+                  <div className='flex flex-col mt-5 gap-2 pointer-events-auto'>
+                    <div className='p-2 pointer-events-auto hover:animate-pulse transition-all bottom hover:scale-110 border-red-600 bg-gray-400 text-red-600 '>
                       The Atomic Bomb
+                      <div className="p-2"><input type="text" placeholder=" Quantities" />
+                      </div>
                     </div>
                     <div className='p-2  hover:animate-pulse transition-all bottom hover:scale-110 border-red-600 bg-gray-400 text-red-600'>
                       Dirty Bombs
+                      <div className="p-2"><input type="text" placeholder=" Quantities" />
+                      </div>
                     </div>
                     <div className='p-2 hover:animate-pulse transition-all bottom hover:scale-110 border-red-600  bg-gray-400 text-red-600'>
                       Thermonuclear Weapons
+                      <div className="p-2"><input type="text" placeholder=" Quantities" />
+                      </div>
                     </div>
                   
                   
@@ -53,6 +60,8 @@ function App() {
                     
                   </a>
                   
+                  
+                  </div>
                   </div>
                 </div>
               </div>
@@ -68,6 +77,7 @@ function App() {
       
       <a
       className="p-4 md:text-md bottom-3 font-seimifold absolute "><strong>Think before you buy. Why would you need such a thing? Drink some hot water and everything is going to be ok. </strong></a>
+
 
 
       </div>
